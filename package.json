@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "config": "^1.10.0",
-        "request": "^2.53.0"
+        "request": "^2.53.0",
+        "lackey-options-parser": "0.0.x"
     }
 }
