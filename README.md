@@ -14,10 +14,16 @@ This is an early release of this helpers and they haven't been tested outside ou
         dustjs.helpers = require('dustjs-helpers').helpers, // optional, but a good idea
         helpers = require('lackey-dustjs-helpers');
 
-    helpers(dustjs);
+    helpers.registerAll(dustjs);
+
+Or, if you want to register specific ones:
+    
+    helpers.var(dustjs);
+    helpers.options(dustjs);
 
 ## Helpers Included
 
 - [Api](./lib/api.md)
 - [Mongoose](./lib/mongoose.md)
 - [Var](./lib/var.md)
+- [Options](./lib/options.md)
