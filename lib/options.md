@@ -35,3 +35,16 @@ Using Grunt-Browserify:
             }
         };
     };
+
+## render templates
+If the key attribute is not set it will try and render the body:
+
+```
+<select name="group">
+{@options resource="/models/user/groups.json"}
+    {#items}
+        <option value="{key}" {@eq key=key value=group}selected{/eq}>{value}</option>
+    {/items}
+{/options}
+</select>
+```
