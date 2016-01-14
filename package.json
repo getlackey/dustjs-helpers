@@ -1,29 +1,38 @@
 {
-    "name": "lackey-dustjs-helpers",
-    "version": "0.6.0",
-    "description": "A bunch of dustjs helpers",
-    "main": "lib/index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Enigma Marketing <admin@enigma-marketing.co.uk> (http://www.enigma-marketing.co.uk)",
-    "licenses": [{
-        "type": "Apache 2.0",
-        "url": "http://www.apache.org/licenses/LICENSE-2.0"
-    }],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/getlackey/dustjs-helpers.git"
-    },
-    "devDependencies": {
-        "grunt": "^0.4.5",
-        "grunt-config-dir": "^0.3.2",
-        "grunt-contrib-watch": "^0.6.1",
-        "grunt-jslint": "^1.1.12"
-    },
-    "dependencies": {
-        "config": "^1.10.0",
-        "request": "^2.53.0",
-        "lackey-options-parser": "0.0.x"
+  "name": "lackey-dustjs-helpers",
+  "version": "0.6.1",
+  "description": "A bunch of dustjs helpers",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enigma Marketing <admin@enigma-marketing.co.uk> (http://www.enigma-marketing.co.uk)",
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getlackey/dustjs-helpers.git"
+  },
+  "devDependencies": {
+    "dustjs-helpers": "^1.7.3",
+    "dustjs-linkedin": "^2.7.2",
+    "grunt": "^0.4.5",
+    "grunt-config-dir": "^0.3.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jslint": "^1.1.12",
+    "gulp": "^3.9.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4",
+    "should": "^8.1.1"
+  },
+  "dependencies": {
+    "config": "^1.10.0",
+    "request": "^2.53.0",
+    "lackey-options-parser": "0.0.x"
+  }
 }
